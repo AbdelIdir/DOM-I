@@ -88,3 +88,34 @@ ptext[6].textContent = "1 (888) 888-8888";
 ptext[7].textContent = "sales@greatidea.io<";
 
 ptext[8].textContent = "Copyright Great Idea! 2018";
+
+
+var navArr = Array.from(nav);
+
+navArr.forEach(p => p.style.color = "green");
+
+// create something for the DOM progratically
+var myNavA = document.createElement('p');
+
+// added certain content and attributes
+myNavA.textContent = 'NEW !';
+myNavA.classList.add('head', 'green');
+myNavA.setAttribute('id', 'justAWord');
+
+// we captured the element we wish to append to
+var topnav = document.querySelector("nav");
+
+// to it, we appended the newly created thing
+topnav.appendChild(myNavA);
+
+
+topnav.style.color = "green";
+
+
+myOthernav.textContent = "Another !";
+myOthernav.classList.add("before","same");
+myOthernav.setAttribute("id","first");
+
+var firstBefore = document.querySelector("nav");
+
+firstBefore.prepend(myOthernav);
