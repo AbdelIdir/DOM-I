@@ -55,3 +55,28 @@ nav[2].textContent = "Vision";
 nav[3].textContent = "Features";
 nav[4].textContent = "About";
 nav[5].textContent = "Contact";
+
+let h1 = document.querySelector("h1");
+h1.textContent = "DOM IS AWESOME";
+
+let button = document.querySelector("button");
+button.textContent = "Get Started";
+
+let h4 = document.querySelectorAll("h4");
+h4[0].textContent = "FEATURES";
+h4[1].textContent = "ABOUT";
+h4[2].textContent = "SERVICES";
+h4[3].textContent = "PRODUCT";
+h4[4].textContent = "VISION";
+
+let ptext = document.querySelectorAll("p");
+ptext[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+ptext[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+ptext[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+ptext[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+ptext[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
