@@ -119,3 +119,12 @@ firstNavChild.innerHTML = 'Content';
 firstNav.insertBefore(firstNavChild, firstNav.firstChild);
 
 firstNavChild.style.color = "green";
+
+
+ptext[8].style.color = "red";
+
+ptext[0].style.fontStyle = "italic";
+ptext[1].style.color = "blue";
+ptext[3].style.fontFamily = " Arial, Helvetica, sans-serif"
+
+button.style.color = "red";
