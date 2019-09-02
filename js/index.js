@@ -47,3 +47,11 @@ header.src = "img/header-img.png";
 
 let middleImg = document.getElementById("middle-img");
 middleImg.src = "img/mid-page-accent.jpg"
+
+let nav = document.getElementsByTagName("a");
+nav[0].textContent = "Services";
+nav[1].textContent = "Product";
+nav[2].textContent = "Vision";
+nav[3].textContent = "Features";
+nav[4].textContent = "About";
+nav[5].textContent = "Contact";
