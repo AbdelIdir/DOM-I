@@ -94,18 +94,14 @@ var navArr = Array.from(nav);
 
 navArr.forEach(p => p.style.color = "green");
 
-// create something for the DOM progratically
 var myNavA = document.createElement('p');
 
-// added certain content and attributes
 myNavA.textContent = 'NEW !';
 myNavA.classList.add('head', 'green');
 myNavA.setAttribute('id', 'justAWord');
 
-// we captured the element we wish to append to
 var topnav = document.querySelector("nav");
 
-// to it, we appended the newly created thing
 topnav.appendChild(myNavA);
 
 
@@ -128,3 +124,7 @@ ptext[1].style.color = "blue";
 ptext[3].style.fontFamily = " Arial, Helvetica, sans-serif"
 
 button.style.color = "red";
+
+var secondB = document.querySelector("button");
+
+secondB = 
