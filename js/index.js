@@ -112,10 +112,10 @@ topnav.appendChild(myNavA);
 topnav.style.color = "green";
 
 
-myOthernav.textContent = "Another !";
-myOthernav.classList.add("before","same");
-myOthernav.setAttribute("id","first");
+var firstNav = document.querySelector('nav'),
+    firstNavChild = document.createElement('a');
+firstNavChild.innerHTML = 'Content';
 
-var firstBefore = document.querySelector("nav");
+firstNav.insertBefore(firstNavChild, firstNav.firstChild);
 
-firstBefore.prepend(myOthernav);
+firstNavChild.style.color = "green";
