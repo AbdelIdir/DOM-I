@@ -43,4 +43,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
 let header = document.getElementById("cta-img");
-header.src = "img/header-img.png"
+header.src = "img/header-img.png";
+
+let middleImg = document.getElementById("middle-img");
+middleImg.src = "img/mid-page-accent.jpg"
